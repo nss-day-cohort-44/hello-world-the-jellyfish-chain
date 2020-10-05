@@ -1,0 +1,43 @@
+Iceland
+
+City
+Reykjavík
+	Population: 130,345
+	Year: 870 AD
+	Fun fact: World’s most northernmost capital
+Kópavogur
+	Population: 33,205
+	Year: 1948
+	Fun fact: This is The Mountain’s hometown
+Hafnarfjörður
+	Population: 27,357
+	Year: 1300s
+	Fun fact: Viking festival held on the summer solstice, home of Stefan Karl Stefansson
+
+Landmark
+The Blue Lagoon
+	Year: 1974
+	Location: Near Grindavik
+	Cost: From 5990 ISK to 180000 ISK ($44-$1300)
+Gluggafoss waterfall
+	Year: 1947 (volcanic eruption)
+	Location: Southern Iceland
+	Cost: Free
+Northern Lights
+	Year: 1230 (Chronicled)
+	Location: Mt. Kirkjufell (Or away from light pollution
+	Cost: Free
+
+Celebrity
+Stefan Karl Stefansson
+	Born: Hafnarfjörður, Iceland
+	Famous for: Being #1, actor
+	Fun fact: One of the rare few to be both a celebrity and meme
+Olafur Arnalds
+	Born: Mosfellsbær, Iceland
+	Famous for: Being a multi-instrumentalist
+	Fun fact: Formerly a drummer for hardcore/metal bands
+Hafþór Júlíus Björnsson
+	Born: Kópavogur, Iceland
+	Famous for: Being one of best characters on GoT
+	Fun fact: Won Arnold Strongman Classic, Europe’s Strongest Man, and World’s Strongest Man in the same year
