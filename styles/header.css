@@ -1,0 +1,27 @@
+.head {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: lightblue;
+}
+
+h1 {
+    margin: 1em 0 1em 2em; 
+}
+
+h2 {
+    text-align: center;
+}
+
+.head__list {
+    display: flex;
+    flex-direction: row;
+    margin: 1em 2em 1em 0;
+}
+
+.head__list__elements {
+    margin: .5em;
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
