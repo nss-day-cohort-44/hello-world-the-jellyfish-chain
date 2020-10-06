@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
 @import "./layout.css";
+@import "./header.css";
 
 /*Typography
 --------------------------------------------------------------*/
@@ -12,6 +13,10 @@ textarea {
   font-family: "Comfortaa", Arial, sans-serif;
   font-size: 14px;
   line-height: 1.5;
+}
+
+body {
+  margin: 0;
 }
 
 h1,
