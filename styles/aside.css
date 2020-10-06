@@ -1,3 +1,13 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.people__heading {
+  text-align: center;
+}
+
 .people__link:hover {
   color: red;
 }
@@ -8,7 +18,7 @@
 
 .person__name {
   text-align: center;
-  font-size: 1.35em;
+  font-size: 1.2em;
   margin-bottom: 2px;
 }
 
