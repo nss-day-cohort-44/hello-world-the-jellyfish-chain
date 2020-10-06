@@ -1,0 +1,27 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.people__heading {
+  text-align: center;
+}
+
+.people__link:hover {
+  color: red;
+}
+
+.person__img {
+  width: 100%;
+}
+
+.person__name {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 2px;
+}
+
+.people__fact {
+  text-align: center;
+}
