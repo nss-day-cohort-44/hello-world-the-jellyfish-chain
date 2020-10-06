@@ -9,4 +9,9 @@
 .person__name {
   text-align: center;
   font-size: 1.35em;
+  margin-bottom: 2px;
+}
+
+.people__fact {
+  text-align: center;
 }
