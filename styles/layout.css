@@ -26,6 +26,11 @@ aside {
   text-align: center;
 }
 
+.landmark__list {
+  border: 2px solid turquoise;
+  flex: 1;
+}
+
 .landmark_list_container {
   display: flex;
   justify-content: space-evenly;
