@@ -3,16 +3,16 @@ import { useLandmarks } from "./ArgentinaLandmarkDataProvider.js"
 
 export const populateLandmarkList = () => {
 
-  const landmarkContainer = document.querySelector(".cities")
-  const arrayOfCities = useCities()
+  const landmarkContainer = document.querySelector(".details__card--landmarks")
+  const arrayOfLandmarks = useLandmarks()
 
-  let buildCityList = "" 
-  for (const singleCity of arrayOfCities) {
-    buildCityList += CityHTML(singleCity)
+  let buildLandmarkList = "" 
+  for (const singleLandmark of arrayOfLandmarks) {
+    buildLandmarkList += LandmarkHTML(singleLandmark)
   }
 
   landmarkContainer.innerHTML += `
-  <div>${buildCityList}</div>
+  <div>${buildLandmarkList}</div>
   `
   
 }
