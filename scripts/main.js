@@ -1,1 +1,14 @@
-console.log("Welcome to the main module")
+
+
+
+
+
+
+
+
+
+
+
+
+import { populateCityList } from "./argentina/argentinaCities/ArgentinaCityList"
+populateCityList()

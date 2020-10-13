@@ -13,7 +13,7 @@ export const populateCityList = () => {
   // loop through the array of donuts, 
   for (const singleCity of arrayOfCities) {
       // and turn each donut object into an html representation of a donut AND adding the HTML to our buildDonutList string
-      buildDonutList += CityHTML(singleCity)
+      buildCityList += CityHTML(singleCity)
   }
 
   // we need to put the list of donuts in the donutContainer
