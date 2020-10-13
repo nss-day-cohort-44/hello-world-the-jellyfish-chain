@@ -12,3 +12,5 @@ const citiesCollecton = [
         population: "120,000"
     }
 ]
+
+export 
