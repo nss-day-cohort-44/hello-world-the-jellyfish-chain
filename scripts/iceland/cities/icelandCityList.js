@@ -8,7 +8,9 @@ import { City } from "./icelandCity.js"
 import { useCity } from "./icelandCityDataProvider.js"
 
 export const cityList = () => {
-    const contentElement = document.querySelector(".listForCities")
+console.log("cityHTMLRepresentations")
+
+    const contentElement = document.querySelector(".details_cities")
 
 const cities = useCity()
 
@@ -17,7 +19,6 @@ for (const city of cities) {
 
     cityHTMLRepresentations += City(city)
 }
-
     contentElement.innerHTML += `
     <h4>Cities</h4>
         <p>${cityHTMLRepresentations}</p>

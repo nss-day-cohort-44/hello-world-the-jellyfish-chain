@@ -8,7 +8,7 @@ import { Celeb } from "./icelandCelebrity.js"
 import { useCeleb } from "./icelandCelebrityDataProvider.js"
 
 export const celebList = () => {
-    const contentElement = document.querySelector(".listForCelebs")
+    const contentElement = document.querySelector(".details__celebs")
 
 const celebs = useCeleb()
 

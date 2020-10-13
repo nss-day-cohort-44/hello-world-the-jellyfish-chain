@@ -8,14 +8,14 @@ import { Landmark } from "./icelandLandmark.js"
 import { useLandmark } from "./icelandLandmarkDataProvider.js"
 
 export const landmarkList = () => {
-    const contentElement = document.querySelector(".listForLandmarks")
+    const contentElement = document.querySelector(".details__landmarks")
 
-const landmarks = useLandmark()
+const landmarks = useLandmark();
 
-let landmarkHTMLRepresentations = ""
+let landmarkHTMLRepresentations = "";
 for (const landmark of landmarks) {
 
-    landmarkHTMLRepresentations += Landmark(landmark)
+    landmarkHTMLRepresentations += Landmark(landmark);
 }
 
     contentElement.innerHTML += `
