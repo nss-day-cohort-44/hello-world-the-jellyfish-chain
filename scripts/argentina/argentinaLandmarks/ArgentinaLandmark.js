@@ -1,6 +1,6 @@
 export const LandmarkHTML = (singleLandmarkObject) => {
   return `
-  <section class="details__card">
+  <section>
     <p>Name: ${singleLandmarkObject.name}</p>
    
   </section>
