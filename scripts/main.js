@@ -1,8 +1,8 @@
 console.log("Welcome to the main module")
 
 
-
-
+import { populateCelebrityList } from "./argentina/argentinaCelebrities/ArgentinaCelebrityList.js"
+populateCelebrityList()
 
 
 

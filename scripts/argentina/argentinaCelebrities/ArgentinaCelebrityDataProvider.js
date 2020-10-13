@@ -12,3 +12,8 @@ const celebrities = [
     about: "Celebrated short-story writer, essayist, poet and translator"
   }
 ]
+
+export cost useCelebrities = () => {
+  return celebrities
+}
+
