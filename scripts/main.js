@@ -1,6 +1,17 @@
-import { ThailandCityList } from "./thailandscripts/thailand-cities/thailandCitiesList.js";
-import { ThailandCelebList } from "./thailandscripts/thailand-celebs/thailandCelebList.js";
-import { ThailandLandmarkList } from "./thailandscripts/thailand-landmarks/thailandLandmarksList.js";
+console.log("Welcome to the main module")
+
+import {useCities} from "./greece/greeceCities/greeceCity.js/"
+
+useCities()
+
+
+
+
+
+
+// import { ThailandCityList } from "./thailandscripts/thailand-cities/thailandCitiesList.js";
+// import { ThailandCelebList } from "./thailandscripts/thailand-celebs/thailandCelebList.js";
+// import { ThailandLandmarkList } from "./thailandscripts/thailand-landmarks/thailandLandmarksList.js";
 
 ThailandCityList();
 ThailandCelebList();
