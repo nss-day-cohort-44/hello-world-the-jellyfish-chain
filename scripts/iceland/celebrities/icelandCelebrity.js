@@ -5,7 +5,7 @@
 export const Celeb = (celebObj) => {
     return `
     <section class="details__card">
-        <p class="celebrity__Hafþór">${celebObj.name}</p>  
+        <p>${celebObj.name}</p>  
     </section>
     `
 }
