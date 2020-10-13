@@ -9,6 +9,7 @@ export const ThialandCityList = () => {
   for (const city of CitiesList) {
     cityContentHTML += City(city);
   }
+  console.log(cityContentHTML);
   return (cityContent.innerHTML += `
   <h4>Cities</h4>
   ${cityContentHTML}
