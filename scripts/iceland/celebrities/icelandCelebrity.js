@@ -1,5 +1,5 @@
 /**
- *  Celebrities which renders individual tip objects as HTML
+ *  Celebrities which renders individual objects as HTML
  */
 
 export const Celeb = (celebObj) => {
