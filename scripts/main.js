@@ -1,7 +1,7 @@
 import { populateCityList } from "./argentina/argentinaCities/ArgentinaCityList";
 populateCityList();
-import { ThialandCityList } from "./thailandscripts/thailand-cities/thailandCitiesList.js";
-// import { ThialandLandmarkList } from "./thailandscripts/thailand-cities/thailandLandmarksList.js";
-// import { ThialandCelebList } from "./thailandscripts/thailand-cities/thailandCelebList.js";
+import { ThailandCityList } from "./thailandscripts/thailand-cities/thailandCitiesList.js";
+import { ThailandCelebList } from "./thailandscripts/thailand-celebs/thailandCelebList.js";
 
-ThialandCityList();
+ThailandCityList();
+// ThailandCelebList();

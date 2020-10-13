@@ -1,7 +1,7 @@
 import { useCities } from "./thailandCitiesData.js";
 import { City } from "./thailandCities.js";
 
-export const ThialandCityList = () => {
+export const ThailandCityList = () => {
   const cityContent = document.querySelector(".details__city");
   const CitiesList = useCities();
   let cityContentHTML = "";
@@ -9,7 +9,6 @@ export const ThialandCityList = () => {
   for (const city of CitiesList) {
     cityContentHTML += City(city);
   }
-  console.log(cityContentHTML);
   return (cityContent.innerHTML += `
   <h4>Cities</h4>
   ${cityContentHTML}
