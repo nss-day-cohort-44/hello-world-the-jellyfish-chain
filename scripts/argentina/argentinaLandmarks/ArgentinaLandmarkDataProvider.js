@@ -3,3 +3,7 @@ const landmarks = [
   {name: Iguazu Falls},
   {name: Southern Fuegian Railway}
 ]
+
+export const useLandmarks = () => {
+  return cities
+}

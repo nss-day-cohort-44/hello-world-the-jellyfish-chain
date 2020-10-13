@@ -15,5 +15,5 @@ export const populateCityList = () => {
   cityContainer.innerHTML += `
   <div>${buildCityList}</div>
   `
-  console.log("GOOD JOB! 👍")
+  
 }

@@ -1,5 +1,3 @@
-// import { populateCityList } from "./argentina/argentinaCities/ArgentinaCityList";
-// populateCityList();
 import { ThailandCityList } from "./thailandscripts/thailand-cities/thailandCitiesList.js";
 import { ThailandCelebList } from "./thailandscripts/thailand-celebs/thailandCelebList.js";
 import { ThailandLandmarkList } from "./thailandscripts/thailand-landmarks/thailandLandmarksList.js";
@@ -7,3 +5,17 @@ import { ThailandLandmarkList } from "./thailandscripts/thailand-landmarks/thail
 ThailandCityList();
 ThailandCelebList();
 ThailandLandmarkList();
+console.log("Welcome to the main module");
+
+import { populateCityList } from "./argentina/argentinaCities/ArgentinaCityList.js";
+populateCityList();
+
+import { useCeleb } from "./iceland/celebrities/icelandCelebrityDataProvider.js";
+import { celebList } from "./iceland/celebrities/icelandCelebrityList.js";
+
+const allTheCelebs = useCeleb();
+celebList();
+
+import { ThialandCityList } from "./thailandscripts/thailand-cities/thailandCitiesList.js";
+
+ThialandCityList();
