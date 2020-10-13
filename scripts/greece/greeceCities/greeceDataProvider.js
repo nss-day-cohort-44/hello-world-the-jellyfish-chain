@@ -1,7 +1,7 @@
 const cityCollection = [
     {
         name: ">Santorini",
-        image:"../greece_pics/Santorini.jpg",
+       
         Population:15,550 ,
         Climate: "Semi-Arid",
         funFact: "Due to it's volcanic past, Santorini has white and black beaches",
