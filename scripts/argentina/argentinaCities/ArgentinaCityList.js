@@ -13,6 +13,7 @@ export const populateCityList = () => {
   }
 
   cityContainer.innerHTML += `
+  <h1>City</h1>
   <div>${buildCityList}</div>
   `
   

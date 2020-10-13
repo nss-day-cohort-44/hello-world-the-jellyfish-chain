@@ -13,6 +13,7 @@ export const populateCelebrityList = () => {
   }
 
   celebrityContainer.innerHTML += `
+  <h1>Celebrities</h1>
   <div>${buildCelebrityList}</div>
   `
   
