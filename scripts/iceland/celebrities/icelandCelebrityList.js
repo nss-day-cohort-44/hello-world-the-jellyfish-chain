@@ -8,7 +8,7 @@ import { Celeb } from "./icelandCelebrity.js"
 import { useCeleb } from "./icelandCelebrityDataProvider.js"
 
 export const celebList = () => {
-    const contentElement = document.querySelector(".detailsLists")
+    const contentElement = document.querySelector(".listForCelebs")
 
 const celebs = useCeleb()
 
@@ -19,10 +19,8 @@ for (const celeb of celebs) {
 }
 
     contentElement.innerHTML += `
-    <section class="details__card">
     <h4>Celebrities</h4>
-        ${celebHTMLRepresentations}
-    </section>
+        <p>${celebHTMLRepresentations}</p>
     `
 
 }
