@@ -4,4 +4,4 @@ export const City = (cityObj) => {
         <p>Name:${cityObj.name}</p>
         <p>Population: ${cityObj.population} </p>
         </section>
-}
+}`
