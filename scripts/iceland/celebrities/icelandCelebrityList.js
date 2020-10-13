@@ -18,12 +18,12 @@ for (const celeb of celebs) {
     celebHTMLRepresentations += Celeb(celeb)
 }
 
-contentElement.innerHTML += `
-<section class="detailsCelebrity__card">
-<h4>Celebrities</h4>
-${celebHTMLRepresentations}
-</section>
-`
+    contentElement.innerHTML += `
+    <section class="details__card">
+    <h4>Celebrities</h4>
+        ${celebHTMLRepresentations}
+    </section>
+    `
 
 }
 
