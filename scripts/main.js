@@ -54,3 +54,8 @@ import { celebList } from "./iceland/celebrities/icelandCelebrityList.js"
 
 const allTheCelebs = useCeleb()
 celebList()
+import { populateCityList } from "./argentina/argentinaCities/ArgentinaCityList";
+populateCityList();
+import { ThialandCityList } from "./thailandscripts/thailand-cities/thailandCitiesList.js";
+
+ThialandCityList();
