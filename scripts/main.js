@@ -1,1 +1,3 @@
-console.log("Welcome to the main module")
+import { ThialandCityList } from "./thailandscripts/thailand-cities/thailandCitiesList.js";
+
+ThialandCityList();
