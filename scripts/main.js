@@ -1,51 +1,19 @@
-console.log("Welcome to the main module")
+// import { ThailandCityList } from "./thailandscripts/thailand-cities/thailandCitiesList.js";
+// import { ThailandCelebList } from "./thailandscripts/thailand-celebs/thailandCelebList.js";
+// import { ThailandLandmarkList } from "./thailandscripts/thailand-landmarks/thailandLandmarksList.js";
+
+// ThailandCityList();
+// ThailandCelebList();
+// ThailandLandmarkList();
 
 
+// import { populateCelebrityList } from "./argentina/argentinaCelebrities/ArgentinaCelebrityList.js"
+// import { populateCityList } from "./argentina/argentinaCities/ArgentinaCityList.js"
+// import { populateLandmarkList } from "./argentina/argentinaLandmarks/ArgentinaLandmarkList.js"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// populateCityList()
+// populateCelebrityList()
+// populateLandmarkList()
 
 
 
@@ -57,10 +25,3 @@ import { landmarkList } from "./iceland/landmarks/icelandLandmarkList.js"
 celebList()
 cityList()
 landmarkList()
-
-//import { populateCityList } from "./argentina/argentinaCities/ArgentinaCityList";
-//populateCityList()
-
-import { ThialandCityList } from "./thailandscripts/thailand-cities/thailandCitiesList.js";
-
-ThialandCityList()

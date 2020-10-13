@@ -1,6 +1,6 @@
 export const CityHTML = (singleCityObject) => {
   return `
-  <section class="details__card">
+  <section>
     <p>Name: ${singleCityObject.name}</p>
     <p>Population: ${singleCityObject.population}</p>
   </section>

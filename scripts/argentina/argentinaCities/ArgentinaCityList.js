@@ -4,7 +4,7 @@ import { CityHTML } from "./ArgentinaCity.js"
 
 export const populateCityList = () => {
 
-  const cityContainer = document.querySelector(".cities")
+  const cityContainer = document.querySelector(".details__card--cities")
   const arrayOfCities = useCities()
 
   let buildCityList = "" 
@@ -13,7 +13,8 @@ export const populateCityList = () => {
   }
 
   cityContainer.innerHTML += `
+  <h1>City</h1>
   <div>${buildCityList}</div>
   `
-  console.log("GOOD JOB! 👍")
+  
 }
