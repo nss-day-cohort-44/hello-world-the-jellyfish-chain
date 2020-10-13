@@ -14,5 +14,5 @@ const cities = [
 ]
 
 export const useCities = () => {
-  return cities.slice()
+  return [cities]
 }
