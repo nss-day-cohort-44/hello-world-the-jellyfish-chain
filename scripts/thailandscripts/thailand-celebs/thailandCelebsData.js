@@ -1,15 +1,15 @@
 const celebCollection = [
   {
     name: "Ratchanok Intanon",
-    occupaton: "Badminton",
+    occupation: "Badminton",
   },
   {
     name: "Chulalongkorn",
-    occupaton: "Anti-Colonislist Monarch",
+    occupation: "Anti-Colonislist Monarch",
   },
   {
     name: "Khaosai Galaxy",
-    occupaton: "Fighter",
+    occupation: "Fighter",
   },
 ];
 
