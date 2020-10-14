@@ -4,8 +4,6 @@
 
 // useCities()
 
-
-
 // import { celebrityList } from "./greece/greeceCelebrities/greeceCelebrityList.js";
 // import { cityList } from "./greece/greeceCities/greeceCityList.js";
 // import { landmarkList } from "./greece/greeceLandmarks/greeceLandmarkList.js";
@@ -16,7 +14,6 @@
 // import { useCities } from "./greece/greeceCities/greeceCity.js/";
 
 // useCities();
-
 
 // import { ThailandCityList } from "./thailandscripts/thailand-cities/thailandCitiesList.js";
 // import { ThailandCelebList } from "./thailandscripts/thailand-celebs/thailandCelebList.js";
@@ -38,13 +35,8 @@
 // populateCelebrityList()
 // populateLandmarkList()
 
-
 // import { useCeleb } from "./iceland/celebrities/icelandCelebrityDataProvider.js";
 // import { celebList } from "./iceland/celebrities/icelandCelebrityList.js";
 
 // const allTheCelebs = useCeleb();
 // celebList();
-
-
-
-
