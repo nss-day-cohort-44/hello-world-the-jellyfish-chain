@@ -1,5 +1,5 @@
 /*
- *  You need to add more properties to complete his
+ *  You need to add more properties to complete the
  *  representation as an object.
  */
 
