@@ -1,15 +1,15 @@
 console.log("Welcome to the main module");
 
-import { celebrityList } from "./greece/greeceCelebrities/greeceCelebrityList.js";
-import { cityList } from "./greece/greeceCities/greeceCityList.js";
-import { landmarkList } from "./greece/greeceLandmarks/greeceLandmarkList.js";
-cityList();
-landmarkList();
-celebrityList();
+// import { celebrityList } from "./greece/greeceCelebrities/greeceCelebrityList.js";
+// import { cityList } from "./greece/greeceCities/greeceCityList.js";
+// import { landmarkList } from "./greece/greeceLandmarks/greeceLandmarkList.js";
+// cityList();
+// landmarkList();
+// celebrityList();
 
-import { useCities } from "./greece/greeceCities/greeceCity.js/";
+// import { useCities } from "./greece/greeceCities/greeceCity.js/";
 
-useCities();
+// useCities();
 
 // import { ThailandCityList } from "./thailandscripts/thailand-cities/thailandCitiesList.js";
 // import { ThailandCelebList } from "./thailandscripts/thailand-celebs/thailandCelebList.js";
