@@ -12,8 +12,8 @@ export const populateLandmarkList = () => {
   }
 
   landmarkContainer.innerHTML += `
-  <h1>Landmarks</h1>
-  <div>${buildLandmarkList}</div>
+  <h2>Landmarks</h2>
+  <p>${buildLandmarkList}</p>
   `
   
 }
