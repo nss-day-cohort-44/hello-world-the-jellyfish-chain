@@ -1,8 +1,8 @@
 console.log("Welcome to the main module")
 
-import {useCities} from "./greece/greeceCities/greeceCity.js/"
+import {cityList} from "./greece/greeceCities/greeceCityList.js"
 
-useCities()
+cityList()
 
 
 
@@ -18,20 +18,20 @@ useCities()
 // ThailandLandmarkList();
 
 
-import { populateCelebrityList } from "./argentina/argentinaCelebrities/ArgentinaCelebrityList.js"
-import { populateCityList } from "./argentina/argentinaCities/ArgentinaCityList.js"
-import { populateLandmarkList } from "./argentina/argentinaLandmarks/ArgentinaLandmarkList.js"
+// import { populateCelebrityList } from "./argentina/argentinaCelebrities/ArgentinaCelebrityList.js"
+// import { populateCityList } from "./argentina/argentinaCities/ArgentinaCityList.js"
+// import { populateLandmarkList } from "./argentina/argentinaLandmarks/ArgentinaLandmarkList.js"
 
-populateCityList()
-populateCelebrityList()
-populateLandmarkList()
+// populateCityList()
+// populateCelebrityList()
+// populateLandmarkList()
 
 
-import { useCeleb } from "./iceland/celebrities/icelandCelebrityDataProvider.js";
-import { celebList } from "./iceland/celebrities/icelandCelebrityList.js";
+// import { useCeleb } from "./iceland/celebrities/icelandCelebrityDataProvider.js";
+// import { celebList } from "./iceland/celebrities/icelandCelebrityList.js";
 
-const allTheCelebs = useCeleb();
-celebList();
+// const allTheCelebs = useCeleb();
+// celebList();
 
 
 
