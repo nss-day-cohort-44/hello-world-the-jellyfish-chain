@@ -8,7 +8,6 @@ import { City } from "./icelandCity.js"
 import { useCity } from "./icelandCityDataProvider.js"
 
 export const cityList = () => {
-console.log("cityHTMLRepresentations")
 
     const contentElement = document.querySelector(".details_cities")
 
