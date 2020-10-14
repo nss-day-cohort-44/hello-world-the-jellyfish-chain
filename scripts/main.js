@@ -1,8 +1,11 @@
 console.log("Welcome to the main module")
 
-import {useCities} from "./greece/greeceCities/greeceCity.js/"
-
-useCities()
+import { celebrityList } from "./greece/greeceCelebrities/greeceCelebrityList.js"
+import {cityList} from "./greece/greeceCities/greeceCityList.js"
+import {landmarkList} from "./greece/greeceLandmarks/greeceLandmarkList.js"
+cityList()
+landmarkList()
+celebrityList()
 
 
 
