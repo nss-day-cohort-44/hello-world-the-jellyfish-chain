@@ -37,7 +37,7 @@ a:hover {
 body {
   background-image: url("../pics/airport.jpeg");
   background-color: blue;
-  height: 900px;
+  height: auto;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
