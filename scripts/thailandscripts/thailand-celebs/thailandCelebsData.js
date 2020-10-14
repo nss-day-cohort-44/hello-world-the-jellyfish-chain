@@ -5,7 +5,7 @@ const celebCollection = [
   },
   {
     name: "Chulalongkorn",
-    occupation: "Anti-Colonislist Monarch",
+    occupation: "Monarch",
   },
   {
     name: "Khaosai Galaxy",
